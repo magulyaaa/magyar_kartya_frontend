@@ -21,6 +21,12 @@
   status = 200
   force = true
 
+[[redirects]]
+  from = "/card_img/*"
+  to = "https://nodejs303.dszcbaross.edu.hu/card_img/:splat"
+  status = 200
+  force = true
+
 # SPA redirect (React routinghoz)
 [[redirects]]
   from = "/*"
